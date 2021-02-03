@@ -5,25 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Accueil - Frederick Baron</title>
 
-    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/styles/bootstrap.css">
+    <link rel="stylesheet" href="/styles/index.css">
 </head>
 <body>
-    <nav>
-        <div class="nav-image">
+
+    <nav class="nav navbar navbar-expand-lg pt-4 pb-4" id="nav">
+        <div class="nav-image navbar-brand">
             <img src="/img/logo.png" alt="Logo Picture">
         </div>
-        <div class="nav-links">
-            <ul class ="nav-links-ul">
-                <li class="nav-links-li"><a href="/index.html" target="_blank">Accueil</a></li>
-                <li class="nav-links-li"><a href="/parolier.html" target="_blank">Parolier</a></li>
-                <li class="nav-links-li"><a href="/biographie.html" target="_blank">Biographie</a></li>
-                <li class="nav-links-li"><a href="/management.html" target="_blank">Management / Production</a></li>
-                <li class="nav-links-li"><a href="/dakini.html" target="_blank">Éditions Dakini</a></li>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"><i class="fa fa-bars" aria-hidden="true"></i></span>
+          </button>
+
+        <div class="collapse navbar-collapse " id="navbarNav">
+            <ul class ="nav-links-ul navbar-nav ml-auto w-100 justify-content-end">
+                <li class="nav-links-li nav-item"><a class="nav-link text-uppercase" href="/index.html">Accueil</a></li>
+                <li class="nav-links-li nav-item"><a class="nav-link text-uppercase" href="/parolier.html">Parolier</a></li>
+                <li class="nav-links-li nav-item"><a class="nav-link text-uppercase" href="/biographie.html">Biographie</a></li>
+                <li class="nav-links-li nav-item"><a class="nav-link text-uppercase" href="/management.html">Management / Production</a></li>
+                <li class="nav-links-li nav-item"><a class="nav-link text-uppercase" href="/dakini.html">Éditions Dakini</a></li>
             </ul>
         </div>
     </nav>
 
+    <main>
 
+    </main>
+
+    <script src="/scripts/bootstrap.bundle.js"></script>
     <script src="/scripts/index.js"></script>
 </body>
 </html>
