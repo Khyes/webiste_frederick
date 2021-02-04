@@ -11,6 +11,7 @@ body {
     --main-black-color: black;
     margin: 0;
     padding: 0;
+    overflow: hidden;
 
 }
 
@@ -83,16 +84,18 @@ main {
 
 .img-index {
     position: absolute;
-    margin-left: 500px;
+    margin-left: 50vw;
     margin-top: -100px;
-    height: 100vh;
-    width: auto;
+    height: auto;
+    width: 50vw;
     overflow: hidden;
     z-index: -1;
 }
 
 .index-img {
-    width: 65vw;
+    
+    max-width:100%;
+    max-height:100%;
 }
 
 
@@ -118,7 +121,14 @@ main {
     z-index: 3;
 }
 
+.index-btn {
+    align-self: flex-end;
+}
+
 @media (max-width: 991.98px) {
+    .img-index {
+    
+    }
 
 }
 
@@ -135,13 +145,49 @@ main {
         margin-top: -20px
     }
 
+    .img-index {
+        position: absolute;
+        margin-left: 300px;
+        height: 100vh;
+        width: auto;
+        overflow: hidden;
+        z-index: -1;
+    }
+
+    .index-img {
+        width: 70vw;
+    }
+
     
 }
 
 @media (max-width: 767.98px) {
     
+    .main-title {
+        text-align:right;
+        margin-right: 40vw;
+        padding-top: 50px;
+    }
+
+    .btn-index {
+        margin-top: 20px;
+        display:flex;
+        flex-direction: column;
+        margin-right: 40vw;
+    }
+
+    .index-btn {
+        margin-bottom: 20px;
+        width:fit-content;
+        align-self: flex-end;
+    }
+
 }
 
 @media (max-width: 575.98px) {
 
+    .main-title {
+        margin-right: 40vw;
+        padding-top: 50px;
+    }
 }
