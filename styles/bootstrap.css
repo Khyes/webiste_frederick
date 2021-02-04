@@ -4159,7 +4159,6 @@ textarea.form-control-lg {
   word-wrap: break-word;
   background-color: #fff;
   background-clip: border-box;
-  border: 1px solid rgba(0, 0, 0, 0.125);
   border-radius: 0.25rem;
 }
 .card > hr {
@@ -4188,6 +4187,9 @@ textarea.form-control-lg {
 .card-body {
   flex: 1 1 auto;
   padding: 1rem 1rem;
+  position: absolute;
+  margin-top: 40px;
+  background-color: rgba(0, 0, 0, 0.5)
 }
 
 .card-title {
@@ -4254,7 +4256,8 @@ textarea.form-control-lg {
 .card-img,
 .card-img-top,
 .card-img-bottom {
-  width: 100%;
+  width: 300px;
+  height: auto;
 }
 
 .card-img,
