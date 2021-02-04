@@ -3091,7 +3091,7 @@ textarea.form-control-lg {
 }
 
 .btn-light {
-  color: #000;
+  color: rgb(65, 65, 65);
   background-color: #f8f9fa;
   border-color: #f8f9fa;
 }
