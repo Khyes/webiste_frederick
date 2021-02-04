@@ -3094,6 +3094,7 @@ textarea.form-control-lg {
   color: rgb(65, 65, 65);
   background-color: #f8f9fa;
   border-color: #f8f9fa;
+  font-size: 14px;
 }
 .btn-light:hover {
   color: #000;
