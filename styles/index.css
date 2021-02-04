@@ -8,13 +8,20 @@
     --main-black-color: black;
 }
 
+
 body {
     font-family: "Poppins", sans-serif;
     background: rgb(20,20,20);
     background: linear-gradient(0deg, rgba(20,20,20,1) 0%, rgba(47,47,47,1) 100%);
     margin: 0;
     padding: 0;
+    height: 100%;
 
+
+}
+
+.fix {
+    display: none;
 }
 
 .all {
@@ -87,6 +94,12 @@ main {
     margin-top: 60px;
 }
 
+.management-content{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 /* IMG INDEX ELEMENTS */
 
 .img-index {
@@ -112,6 +125,74 @@ main {
     height: 330px;
     overflow: hidden;
     position: relative;
+}
+
+#img-sam {
+    position: relative;
+    right: 50px;
+    bottom: 10px;
+}
+
+#img-charles {
+    position: relative;
+    right: 190px;
+    bottom: 110px;
+    width: 550px
+}
+
+/* CARDS MANAGEMENT ELEMENTS */
+
+.management-cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.management-cards .card {
+    margin: 0px 2vw;
+}
+
+.card-head {
+    color: var(--main-red-color);
+    text-align: center;
+    font-size: 15px;
+}
+
+.card-text {
+    color: white;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 200;
+}
+
+.management-icons {
+    color: var(--main-red-color);
+    display: flex;
+    justify-content: center;
+}
+
+.management-icons i {
+    margin: 0px 7px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.management-icons i:hover {
+    color: white;
+}
+
+/* TEXT MANAGEMENT ELEMENTS */
+
+.management-title {
+    margin-top: 30px;
+}
+
+.management-title h1 {
+    font-size: 70px;
+    font-weight: 700;
+    text-align: center;
 }
 
 /* TEXT + BTN INDEX ELEMENTS */
@@ -243,5 +324,26 @@ main {
 
     .index-btn {
         margin-right: 40vw;
+    }
+
+    .management-title h1 {
+        font-size: 50px;
+ 
+    }
+
+    .management-cards {
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+    }
+
+    .management-cards .card {
+        margin-bottom: 5vw;
+    }
+
+    .fix {
+        display: block;
+        opacity: 0;
+        height: 340px;
     }
 }
