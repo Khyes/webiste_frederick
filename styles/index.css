@@ -183,6 +183,10 @@ main {
     color: white;
 }
 
+.management-icons a {
+    color: var(--main-red-color);
+}
+
 /* TEXT MANAGEMENT ELEMENTS */
 
 .management-title {
