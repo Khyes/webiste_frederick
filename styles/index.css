@@ -187,7 +187,7 @@ main {
     cursor: pointer;
 }
 
-.management-icons i:hover {
+.management-icons .ok:hover {
     color: white;
 }
 
@@ -260,6 +260,13 @@ main {
     bottom: 90px;
     width: 600px;
 }
+
+.isDisabled {
+    color: currentColor;
+    opacity: 0.5;
+
+  }
+
 
 /* TEXT MANAGEMENT ELEMENTS */
 
