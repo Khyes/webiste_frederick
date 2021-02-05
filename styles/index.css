@@ -6,13 +6,14 @@
 :root {
     --main-red-color: rgb(255, 36, 36);
     --main-black-color: black;
+    --span-red-color: #FF6A6A;
 }
 
 
 body {
     font-family: "Poppins", sans-serif;
     background: rgb(20,20,20);
-    background: linear-gradient(0deg, rgba(20,20,20,1) 0%, rgba(47,47,47,1) 100%);
+    background: linear-gradient(0deg, rgb(14, 14, 14) 0%, rgb(32, 32, 32) 100%);
     margin: 0;
     padding: 0;
     height: 100%;
@@ -350,6 +351,58 @@ main {
     color: rgb(134, 134, 134);
     font-size: 14px;
     font-weight: 200;
+}
+
+/* BIO ELEMENTS */
+
+.bio-text {
+    color: white;
+    font-size: 14px;
+    font-weight: 200;
+    text-align: justify;
+}
+
+.bio-text-content {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.bio-img-container {
+    width: 30vw;
+    height: 240px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.bio-img {
+    width: 100%;
+    position: relative;
+    bottom: 45px;
+}
+
+.bio-text-left {
+    width: 30vw;
+    margin-right: 20px;
+}
+
+.bio-text-right {
+    width: 30vw;
+    margin-left: 20px;
+}
+
+.italic-text {
+    font-style: italic;
+}
+
+
+strong {
+    color: var(--span-red-color);
+    font-weight: 500;
+}
+
+.fix-biographie {
+    height:400px;
 }
 
 /* SCREEN SIZE RESPONSIVITY */
