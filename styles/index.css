@@ -21,7 +21,8 @@ body {
 }
 
 .fix {
-    display: none;
+    opacity: 0;
+    height: 50px;
 }
 
 .fix-dakini {
@@ -363,6 +364,10 @@ main {
         margin-right: 33vw;
     }
 
+    .card-base {
+        width: 650px;
+    }
+
 }
 
 @media (max-width: 870.98px) {
@@ -421,6 +426,10 @@ main {
     .img-index {
         width: 100vw;
         margin-left: 30vw;
+    }
+
+    .card-base {
+        width: 325px;
     }
 
 
