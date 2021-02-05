@@ -26,8 +26,7 @@ body {
 }
 
 .fix-dakini {
-    height: 90px;
-    opacity: 0;
+    display: none;
 }
 
 .all {
@@ -328,6 +327,7 @@ main {
 /* FOOTER DAKINI ELEMENTS */
 
 .footer-content {
+    margin-top: 10px;
     margin-left: 14vw;
     height:300px;
 }
