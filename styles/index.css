@@ -17,6 +17,7 @@ body {
     margin: 0;
     padding: 0;
     height: 100%;
+    padding-top: 5px;
 
 
 }
@@ -432,6 +433,13 @@ strong {
     max-width: 100%;
 }
 
+.carousel-parolier {
+    background-color: white;
+    height: 580px;
+    border-radius: 50px;
+    padding: 100px;
+    
+}
 
 /* SCREEN SIZE RESPONSIVITY */
 
