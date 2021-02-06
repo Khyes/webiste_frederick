@@ -415,6 +415,24 @@ strong {
     margin: 50px 30px;
 }
 
+/* PAROLIER ELEMENTS */
+
+.parolier-container {
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.parolier-img-content {
+    width: 50vw;
+}
+
+.parolier-img {
+    max-width: 100%;
+}
+
+
 /* SCREEN SIZE RESPONSIVITY */
 
 @media (max-width: 991.98px) {
