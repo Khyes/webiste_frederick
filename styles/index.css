@@ -328,7 +328,7 @@ main {
 /* FOOTER DAKINI ELEMENTS */
 
 .footer-content {
-    margin-top: 10px;
+    margin-top: 100px;
     margin-left: 14vw;
     height:300px;
 }
@@ -366,11 +366,12 @@ main {
     display: flex;
     justify-content: center;
     margin-top: 50px;
+    margin-bottom: 90px;
 }
 
 .bio-img-container {
     width: 30vw;
-    height: 240px;
+    height: 19vw;
     overflow: hidden;
     margin-bottom: 30px;
 }
@@ -402,7 +403,16 @@ strong {
 }
 
 .fix-biographie {
-    height:400px;
+    height:950px;
+}
+
+.album-player-content {
+    display:flex;
+    justify-content: center;
+}
+
+.album-player {
+    margin: 50px 30px;
 }
 
 /* SCREEN SIZE RESPONSIVITY */
