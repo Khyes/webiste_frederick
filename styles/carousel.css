@@ -88,7 +88,13 @@ body {
 
 .img-parolier {
   margin-right: 1rem;
-  width: 10rem;
+  position: absolute;
+  width: 180px;
+  height: 180px;
+}
+
+.text-parolier {
+  margin-left: 200px;
 }
 
 .img-parolier img {
