@@ -1,4 +1,10 @@
 
+:root {
+  --main-red-color: rgb(255, 36, 36);
+  --main-black-color: black;
+  --span-red-color: #FF6A6A;
+}
+
 .bd-placeholder-img {
   font-size: 1.125rem;
   text-anchor: middle;
@@ -40,7 +46,7 @@ body {
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-  height: 32rem;
+  height: 22rem;
 }
 
 .carousel-item>img {
@@ -48,9 +54,75 @@ body {
   top: 0;
   left: 0;
   min-width: 100%;
-  height: 32rem;
 }
 
+.carousel-inner {
+  border-radius: 30px;
+  background-color: #DDD;
+  padding: 5em 9rem;
+}
+
+.h1-parolier {
+  color: var(--main-red-color);
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+.h2-parolier {
+  font-weight: 700;
+  font-size: 0.8rem;
+}
+
+.h3-parolier {
+  font-weight: 700;
+  font-size: 0.8rem;
+  font-style: italic;
+}
+
+.p-parolier {
+  font-size: 0.8rem;
+  line-height: 0.2rem;
+}
+
+.artist-content {
+  display: flex;
+}
+
+.artist-container {
+  display: grid;
+  grid-template-columns: 1f 1f;
+  grid-template-rows: 1f 1f;
+  gap: 2.5rem;
+}
+
+.img-parolier {
+  margin-right: 1rem;
+  width: 10rem;
+}
+
+.img-parolier img {
+  width: 100%;
+}
+
+.one {
+  grid-row: 1;
+  grid-column: 1;
+}
+
+.two {
+  grid-row: 1;
+  grid-column: 2;
+}
+
+.three {
+  grid-row: 2;
+  grid-column: 1;
+}
+
+.four {
+  grid-row: 2;
+  grid-column: 2;
+}
 
 /* MARKETING CONTENT
 -------------------------------------------------- */
