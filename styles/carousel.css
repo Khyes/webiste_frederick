@@ -5,20 +5,6 @@
   --span-red-color: #FF6A6A;
 }
 
-.bd-placeholder-img {
-  font-size: 1.125rem;
-  text-anchor: middle;
-  -webkit-user-select: none;
-  -moz-user-select: none;
-  -ms-user-select: none;
-  user-select: none;
-}
-
-@media (min-width: 768px) {
-  .bd-placeholder-img-lg {
-    font-size: 3.5rem;
-  }
-}
 
 /* GLOBAL STYLES
 --------------------------------------------- */
@@ -46,46 +32,49 @@ body {
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
-  height: 22rem;
-}
-
-.carousel-item>img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
+  height: 25rem;
+  width: 78vw;
 }
 
 .carousel-inner {
   border-radius: 30px;
   background-color: #DDD;
   padding: 5em 9rem;
+
 }
 
 .h1-parolier {
   color: var(--main-red-color);
   font-weight: 700;
-  font-size: 0.8rem;
+  font-size: 0.7rem;
+  margin-bottom: 0.1rem;
 }
 
 .h2-parolier {
   font-weight: 700;
   font-size: 0.8rem;
+  margin-bottom: 0.1rem;
 }
 
 .h3-parolier {
   font-weight: 700;
   font-size: 0.8rem;
   font-style: italic;
+  margin-top: 1rem;
+  margin-bottom: 0.1rem;
 }
 
 .p-parolier {
   font-size: 0.8rem;
-  line-height: 0.2rem;
+  margin-bottom: 0.1rem;
+  line-height: 1rem;
 }
 
 .artist-content {
   display: flex;
+  width: 30rem;
+  height: 10rem;
+  overflow: scroll;
 }
 
 .artist-container {
@@ -93,6 +82,8 @@ body {
   grid-template-columns: 1f 1f;
   grid-template-rows: 1f 1f;
   gap: 2.5rem;
+  row-gap: 4rem;;
+  width: 100%;
 }
 
 .img-parolier {
