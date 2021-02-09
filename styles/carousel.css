@@ -54,6 +54,7 @@ body {
   font-weight: 700;
   font-size: 0.8rem;
   margin-bottom: 0.1rem;
+  text-transform: uppercase;
 }
 
 .h3-parolier {
@@ -62,6 +63,7 @@ body {
   font-style: italic;
   margin-top: 1rem;
   margin-bottom: 0.1rem;
+  text-transform: uppercase;
 }
 
 .p-parolier {

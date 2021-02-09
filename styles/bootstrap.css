@@ -5721,6 +5721,7 @@ textarea.form-control-lg {
   z-index: 0;
   opacity: 0;
   transition: opacity 0s 0.6s;
+  
 }
 @media (prefers-reduced-motion: reduce) {
   .carousel-fade .active.carousel-item-start,
@@ -5809,17 +5810,18 @@ textarea.form-control-lg {
 .carousel-indicators li {
   box-sizing: content-box;
   flex: 0 1 auto;
-  width: 30px;
-  height: 3px;
+  width: 10px;
+  height: 10px;
+  border-radius: 50px;
   margin-right: 3px;
   margin-left: 3px;
+  margin-bottom: 10px;
   text-indent: -999px;
   cursor: pointer;
   background-color: #fff;
   background-clip: padding-box;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  opacity: 0.5;
+ 
+  opacity: 0.3;
   transition: opacity 0.6s ease;
 }
 @media (prefers-reduced-motion: reduce) {
