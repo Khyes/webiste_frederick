@@ -9,6 +9,10 @@
     --span-red-color: #FF6A6A;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 
 body {
     font-family: "Poppins", sans-serif;
@@ -43,6 +47,8 @@ nav {
     align-items: flex-end;
     justify-content: space-between;
     z-index: 9;
+    padding-right: 2rem;
+    padding-left: 2rem;
 }
 
  .nav-image img{
@@ -301,7 +307,7 @@ main {
 
 .main-title h1 {
     font-weight: 700;
-    font-size: 70px;
+    font-size: 6rem;
     
 }
 
@@ -324,6 +330,7 @@ main {
 
 .index-btn {
     align-self: flex-end;
+    padding: 0.5rem 1rem;
 }
 
 /* FOOTER DAKINI ELEMENTS */
@@ -443,14 +450,76 @@ strong {
 
 /* SCREEN SIZE RESPONSIVITY */
 
-@media (max-width: 991.98px) {
+@media (min-width: 1900.98px) {
+    .main-title h1 {
+        font-size: 8rem;
+    }
+
+    .index-btn {
+        font-size: 1.23rem;
+        padding: 0.5rem 1rem;
+    }
+
+    .nav-links-li a {
+        font-size: 1rem;
+    }
+
+    .nav {
+        margin-top: 1rem;
+    }
+
     .img-index {
-        width: 60vw;
-        height: auto;
+        padding-top: 3rem;
     }
 
     .section {
-        margin-right: 33vw;
+        padding-top: 5rem;
+        padding-right: 5rem;
+    }
+
+}
+
+
+@media (max-width: 1024.98px) {
+    .img-index {
+       overflow:hidden;
+       width: 100%;
+       position: absolute;
+       right: 0rem;
+       top: 0rem;
+    }
+
+    .index-img {
+        position: relative;
+        top: 10rem;
+        left: 25rem;
+    }
+
+    .section {
+        margin-right: 23rem;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .img-index {
+        overflow:hidden;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        right: 0rem;
+        top: 10rem;
+    
+     }
+ 
+     .index-img {
+         position: relative;
+         top: 0rem;
+         left: 5rem;
+    
+     }
+
+    .section {
+        margin-left: -19rem;
     }
 
     .card-base {
@@ -459,7 +528,36 @@ strong {
 
 }
 
-@media (max-width: 870.98px) {
+@media (max-width: 834.98px) {
+
+    .index-img {
+        left: 12rem;
+    }
+
+    .main-title h1 {
+        font-size: 5rem;
+    }
+
+    .section {
+        margin-left: -15rem;
+        padding-top: 5rem;
+    }
+
+    .btn-index {
+        margin-top: 20px;
+        display:flex;
+        flex-direction: column;
+    }
+
+    .index-btn {
+        margin-bottom: 20px;
+        width:fit-content;
+        align-self: flex-end;
+    }
+
+}
+
+@media (max-width: 800.98px) {
 
     .nav-links-ul {
         background-color: var(--main-black-color);
@@ -481,9 +579,13 @@ strong {
         z-index: -1;
     }
 
+    .main-title h1 {
+        font-size: 4rem;
+    }
+
 
     .section {
-        margin-right: 45vw;
+        margin-right: 25rem;
     }
 
     .btn-index {
@@ -502,19 +604,36 @@ strong {
 }
 
 
-@media (max-width: 767.98px) {
+@media (max-width: 768.98px) {
     
     .main-title {
-        padding-top: 50px;
+        padding-top: 0px;
     }
 
     .main-title h1 {
         font-size: 50px;
     }
 
+    .section {
+        margin-left: -23rem;
+    }
+
     .img-index {
-        width: 100vw;
-        margin-left: 30vw;
+        overflow:hidden;
+        position: absolute;
+        right: 0rem;
+        top: 5rem;
+        left: 0rem;
+        margin-left: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .index-img {
+        position: relative;
+        top: 5rem;
+        width: 50rem;
     }
 
     .card-base {
@@ -525,16 +644,24 @@ strong {
 }
 
 
-@media (max-width: 575.98px) {
+@media (max-width: 600.98px) {
 
-    .main-title {
-        margin-right: 40vw;
-        padding-top: 50px;
+
+    .section {
+        margin-left: -15rem;
+
+        
     }
 
-    .index-btn {
-        margin-right: 40vw;
+    .index-img {
+        right: 0;
+        margin-top: 2rem;
+        margin-left: 3rem;
+        left: -7rem;
+        height: auto;
+        
     }
+
 
     .management-title h1 {
         font-size: 50px;
@@ -556,4 +683,84 @@ strong {
         opacity: 0;
         height: 340px;
     }
+}
+
+@media (max-width: 414.98px) {
+    .nav {
+        padding-right: 0;
+    }
+
+   .main-title h1 {
+       font-size: 2.3rem;
+   }
+
+   .index-btn {
+        font-size: 1rem;
+   }
+
+   .img-index {
+       overflow:hidden;
+       position: absolute;
+       right: 0rem;
+       top: 5rem;
+       left: 0rem;
+       margin-left: 0;
+       right: 0;
+       width: 100%;
+       height: 100%;
+   }
+
+   .index-img {
+       position:relative;
+       width: 55rem;;
+       height: auto;
+       top: 0rem;
+       right: 0rem;
+       bottom: 0;
+       left:-4rem;
+       max-width:none;
+       max-height: none;
+   }
+
+   .section {
+       margin-left: -8rem;
+   }
+
+}
+
+
+@media (max-width: 375.98px) {
+    .index-img {
+        left: -7rem;
+    }
+
+    .section {
+        margin-left: -8rem;
+    }
+
+    .index-btn {
+        font-size: 0.9rem;
+    }
+}
+
+@media (max-width: 320.98px) {
+
+    .index-img {
+        left: -5rem;
+        width: 45rem;
+        bottom: 6rem;
+    }
+
+    .main-title h1 {
+        font-size: 2rem;
+    }
+
+    .index-btn {
+        font-size: 0.9rem;
+    }
+
+    .section {
+        margin-left: -6rem;
+    }
+
 }
