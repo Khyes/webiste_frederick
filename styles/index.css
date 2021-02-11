@@ -379,8 +379,8 @@ main {
 }
 
 .bio-img-container {
-    width: 30vw;
-    height: 19vw;
+    width: 26rem;
+    height: 10rem;
     overflow: hidden;
     margin-bottom: 30px;
 }
@@ -388,16 +388,16 @@ main {
 .bio-img {
     width: 100%;
     position: relative;
-    bottom: 45px;
+    bottom: 4rem;
 }
 
 .bio-text-left {
-    width: 30vw;
+    width: 26rem;
     margin-right: 20px;
 }
 
 .bio-text-right {
-    width: 30vw;
+    width: 26rem;
     margin-left: 20px;
 }
 
@@ -587,6 +587,8 @@ strong {
         bottom: 90px;
         width: 900px;
     }
+
+
 
 }
 
@@ -794,6 +796,44 @@ strong {
         opacity: 0;
         height: 340px;
     }
+
+    .bio-text-content {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        margin-bottom: 90px;
+    }
+
+    .bio-img-container {
+        width: 25rem;
+        height: 10rem;
+        overflow: hidden;
+        margin-bottom: 30px;
+    }
+    
+    .bio-img {
+        width: 100%;
+        position: relative;
+        bottom: 4rem;
+    }
+    
+    .bio-text-left {
+        width: 25rem;
+        align-self: center;
+        margin-right: 0;
+        margin-bottom: 1rem;
+    }
+    
+    .bio-text-right {
+        width: 25rem;
+        align-self: center;
+        margin-left: 0px;
+    }
+
+    .album-player-content {
+        flex-direction: column;
+        align-items: center;
+    }
 }
 
 @media (max-width: 414.98px) {
@@ -855,6 +895,39 @@ strong {
     margin-left: 4rem;
     }
 
+
+    .bio-text-content {
+        display: flex;
+        flex-direction: column;
+        margin-top: 50px;
+        margin-bottom: 90px;
+    }
+
+    .bio-img-container {
+        width: 20rem;
+        height: 10rem;
+        overflow: hidden;
+        margin-bottom: 30px;
+    }
+    
+    .bio-img {
+        width: 100%;
+        position: relative;
+        bottom: 4rem;
+    }
+    
+    .bio-text-left {
+        width: 20rem;
+        align-self: center;
+        margin-right: 0;
+    }
+    
+    .bio-text-right {
+        width: 20rem;
+        align-self: center;
+        margin-left: 0px;
+    }
+
 }
 
 
@@ -875,6 +948,39 @@ strong {
         font-size: 12px;
         font-weight: 200;
     }
+
+    .bio-img-container {
+        width: 18rem;
+        height: 10rem;
+        overflow: hidden;
+        margin-bottom: 30px;
+    }
+    
+    .bio-img {
+        width: 100%;
+        position: relative;
+        bottom: 4rem;
+    }
+    
+    .bio-text-left {
+        width: 18rem;
+        align-self: center;
+        margin-right: 0;
+    }
+    
+    .bio-text-right {
+        width: 18rem;
+        align-self: center;
+        margin-left: 0px;
+    }
+
+    .bio-container .management-title h1 {
+        font-size: 2rem;
+    }
+    .album-container .management-title h1 {
+        font-size: 2rem;
+    }
+
 
 }
 
@@ -920,6 +1026,44 @@ strong {
         .small-text p {
             font-size: 11px;
             font-weight: 200;
+        }
+
+        .bio-img-container {
+            width: 15rem;
+            height: 10rem;
+            overflow: hidden;
+            margin-bottom: 30px;
+        }
+        
+        .bio-img {
+            width: 100%;
+            position: relative;
+            bottom: 2rem;
+        }
+        
+        .bio-text-left {
+            width: 15rem;
+            align-self: center;
+            margin-right: 0;
+        
+        }
+        
+        .bio-text-right {
+            width: 15rem;
+            align-self: center;
+            margin-left: 0px;
+        }
+    
+        .bio-text {
+            font-size: 0.8rem;
+        }
+
+
+        .bio-container .management-title h1 {
+            font-size: 1.5rem;
+        }
+        .album-container .management-title h1 {
+            font-size: 1.5rem;
         }
 
 }
