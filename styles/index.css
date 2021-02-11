@@ -103,7 +103,7 @@ nav {
 /* MAIN ELEMENTS */
 
 main {
-    height: 100vh;
+
     margin-top: 60px;
 }
 
@@ -337,7 +337,7 @@ main {
 /* FOOTER DAKINI ELEMENTS */
 
 .footer-content {
-    margin-top: 100px;
+    margin-top: 5rem;
     margin-left: 14vw;
     height:300px;
 }
@@ -532,6 +532,14 @@ strong {
         text-transform:uppercase;
     
     }
+
+    .dakini-cards .card {
+        margin: 0px 7rem;
+    }
+
+    .card-base {
+        width: 1500px;
+    }
     
     
     .management-icons {
@@ -544,6 +552,40 @@ strong {
         margin: 0px 1rem;
         font-size: 2.5rem;
         cursor: pointer;
+    }
+
+    #img-anthony {
+        position: relative;
+        width: 1000px;
+        right: 300px;
+    }
+    
+    #img-bermuda {
+        position: relative;
+        right: 140px;
+        bottom: 80px;
+        width: 650px;
+    }
+    
+    #img-charles2 {
+        position: relative;
+        right: 130px;
+        bottom: 100px;
+        width: 650px;
+    }
+    
+    #img-jack {
+        position: relative;
+        right: 30px;
+        bottom: 10px;
+        width: 600px;
+    }
+    
+    #img-maxime {
+        position: relative;
+        right: 220px;
+        bottom: 90px;
+        width: 900px;
     }
 
 }
@@ -799,6 +841,20 @@ strong {
        margin-left: -8rem;
    }
 
+   .footer-img {
+    height: 100px;
+   }
+
+  .footer-info {
+    margin-left: 0rem;
+   }
+
+
+ .footer-content {
+    margin-top: 5rem;
+    margin-left: 4rem;
+    }
+
 }
 
 
@@ -814,9 +870,16 @@ strong {
     .index-btn {
         font-size: 0.9rem;
     }
+
+    .small-text p {
+        font-size: 12px;
+        font-weight: 200;
+    }
+
 }
 
 @media (max-width: 320.98px) {
+
 
     .index-img {
         left: -5rem;
@@ -839,5 +902,24 @@ strong {
     .management-title h1 {
         font-size: 2rem;
     }
+
+    .footer-img {
+        height: 100px;
+       }
+    
+      .footer-info {
+        margin-left: 0rem;
+       }
+    
+    
+     .footer-content {
+        margin-top: 5rem;
+        margin-left: 2rem;
+        }
+
+        .small-text p {
+            font-size: 11px;
+            font-weight: 200;
+        }
 
 }
