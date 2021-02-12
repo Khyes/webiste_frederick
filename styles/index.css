@@ -35,6 +35,10 @@ body {
     display: none;
 }
 
+.fix-index {
+    height: 35vh;
+}
+
 .all {
     overflow: hidden;
 }
