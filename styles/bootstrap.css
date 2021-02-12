@@ -6028,6 +6028,8 @@ textarea.form-control-lg {
   right: 0;
   left: 0;
   z-index: 1030;
+  backdrop-filter: blur(10px) brightness(70%);
+ -webkit-backdrop-filter: blur(10px) brightness(100%);
 }
 
 .fixed-bottom {
