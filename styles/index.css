@@ -27,6 +27,12 @@ body {
 
 }
 
+h2 {
+    font-size: 1.3rem;
+    color: var(--main-red-color);
+    text-align: center;
+}
+
 
 
 /*--------------
@@ -672,6 +678,14 @@ strong {
 .album-player {
     margin: 50px 30px;
 }
+
+.btn-bio {
+    display: flex;
+    justify-content: center;
+    margin-top: -4rem;
+    margin-bottom: 4rem;
+}
+
 
 /* PAROLIER ELEMENTS */
 
