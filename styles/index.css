@@ -994,6 +994,13 @@ strong {
 
 }
 
+@media (min-width: 2505.98px) {
+
+    .index-img {
+        position: relative;
+        left: 5vw;
+    }
+}
 
 @media (max-width: 1024.98px) {
     .img-index {
