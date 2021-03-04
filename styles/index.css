@@ -994,7 +994,7 @@ strong {
 
 }
 
-@media (min-width: 2505.98px) {
+@media (max-width: 5200.98px) {
 
     .index-img {
         position: relative;
