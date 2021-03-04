@@ -147,7 +147,7 @@ strong::-moz-selection {
 }
 
 .management-main {
-    height: 100vh;
+    height: fit-content;
 }
 
 
@@ -554,6 +554,13 @@ main {
     width: 600px;
 }
 
+#img-godett {
+    position: relative;
+    width: 500px;
+    right: 120px;
+    bottom: 100px;
+}
+
 .isDisabled {
     color: currentColor;
     opacity: 0.5;
@@ -818,6 +825,13 @@ strong {
         right: 210px;
         bottom: 110px;
         width: 700px
+    }
+
+    #img-godett {
+        position: relative;
+        width: 900px;
+        right: 250px;
+        bottom: 200px;
     }
 
     .card-body {
@@ -1124,6 +1138,16 @@ strong {
         width: 325px;
     }
 
+    .management-cards {
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+    }
+
+    .management-cards .card {
+        margin-bottom: 5vw;
+    }
+
 
 }
 
@@ -1379,10 +1403,6 @@ strong {
         height: 25vh;
     }
 
-    .fix-management {
-        height: 45vh;
-    }
-
 
 }
 
@@ -1472,8 +1492,5 @@ strong {
             height: 15vh;
         }
 
-        .fix-management {
-            height: 70vh;
-        }
 
 }
