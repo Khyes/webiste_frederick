@@ -3992,7 +3992,7 @@ textarea.form-control-lg {
     display: none;
   }
 }
-@media (min-width: 870.98px) {
+@media (min-width: 1024.98px) {
   .navbar-expand-lg {
     flex-wrap: nowrap;
     justify-content: flex-start;
