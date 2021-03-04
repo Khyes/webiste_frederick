@@ -13,6 +13,6 @@ window.getSelection().removeAllRanges();
 window.getSelection().addRange(r);
 document.execCommand('copy');
 window.getSelection().removeAllRanges();
-alert("Copier dans le presse-papier")
+alert("Copié dans le presse-papier")
 }
 
