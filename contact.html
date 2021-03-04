@@ -70,23 +70,23 @@
             </section>
 
             <section class="contact-cards">
-                <div class="contact-top hvr-trim">
+                <div class="contact-top hvr-trim" onclick="CopyToClipboard('phonenumber')">
                     <div class="phone">
                         <i class="fa fa-phone" aria-hidden="true"></i>
                         <h5 class="contact">Téléphone</h5>
-                        <p class="contact">514-823-1058</p>
+                        <p class="contact" id="phonenumber">514-823-1058</p>
                     </div>
                 </div>
                 <div class="contact-bottom">
-                    <div class="email hvr-trim">
+                    <div class="email hvr-trim" onclick="CopyToClipboard('managementemail')">
                         <i class="fas fa-envelope"></i>
                         <h5 class="contact">Management &<br>Production</h5>
-                        <p class="contact">fredbaron22@gmail.com</p>
+                        <p class="contact" id="managementemail">fredbaron22@gmail.com</p>
                     </div>
-                    <div class="email hvr-trim">
+                    <div class="email hvr-trim" onclick="CopyToClipboard('dakaniemail')">
                         <i class="fas fa-envelope"></i>
                         <h5 class="contact">Éditions<br>Dakini</h5>
-                        <p class="contact">editionsdakini@gmail.com</p>
+                        <p class="contact" id="dakaniemail">editionsdakini@gmail.com</p>
                     </div>
                 </div>
             </section>
