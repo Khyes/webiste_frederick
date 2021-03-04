@@ -1000,6 +1000,10 @@ strong {
         position: relative;
         left: 5vw;
     }
+
+    .section {
+        margin-right: 40vw;
+    }
 }
 
 @media (max-width: 1024.98px) {
