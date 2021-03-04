@@ -1586,15 +1586,11 @@
 
 /* Radial Out */
 .hvr-radial-out {
-  display: inline-block;
-  vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
   overflow: hidden;
-  background: #e1e1e1;
-  border: 2px solid #db0000;
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.3s;
@@ -1608,7 +1604,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: #ffffff;
+  background: rgb(255, 36, 36);
   border: 2px solid #db0000;
   border-radius: 100%;
   -webkit-transform: scale(0);
@@ -1712,17 +1708,14 @@
 
 /* Rectangle Out */
 .hvr-rectangle-out {
-  display: inline-block;
-  vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
-  background: #e1e1e1;
   -webkit-transition-property: color;
   transition-property: color;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
 }
 .hvr-rectangle-out:before {
   content: "";
@@ -1732,13 +1725,13 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: #2098D1;
+  background: rgb(255, 36, 36);
   -webkit-transform: scale(0);
   transform: scale(0);
   -webkit-transition-property: transform;
   transition-property: transform;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
+  -webkit-transition-duration: 0.5s;
+  transition-duration: 0.5s;
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
@@ -1836,13 +1829,12 @@
 
 /* Shutter In Vertical */
 .hvr-shutter-in-vertical {
-  display: inline-block;
-  vertical-align: middle;
+
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
-  background: #2098D1;
+  background: rgb(255, 36, 36);
   -webkit-transition-property: color;
   transition-property: color;
   -webkit-transition-duration: 0.3s;
@@ -1856,7 +1848,7 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: #e1e1e1;
+  background: rgb(36, 36, 36);
   -webkit-transform: scaleY(1);
   transform: scaleY(1);
   -webkit-transform-origin: 50%;
@@ -1878,17 +1870,14 @@
 
 /* Shutter Out Vertical */
 .hvr-shutter-out-vertical {
-  display: inline-block;
-  vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   position: relative;
-  background: #e1e1e1;
   -webkit-transition-property: color;
   transition-property: color;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
+  -webkit-transition-duration: 1s;
+  transition-duration: 1s;
 }
 .hvr-shutter-out-vertical:before {
   content: "";
@@ -1898,15 +1887,15 @@
   bottom: 0;
   left: 0;
   right: 0;
-  background: #2098D1;
+  background: rgb(255, 36, 36);
   -webkit-transform: scaleY(0);
   transform: scaleY(0);
   -webkit-transform-origin: 50%;
   transform-origin: 50%;
   -webkit-transition-property: transform;
   transition-property: transform;
-  -webkit-transition-duration: 0.3s;
-  transition-duration: 0.3s;
+  -webkit-transition-duration: 1s;
+  transition-duration: 1s;
   -webkit-transition-timing-function: ease-out;
   transition-timing-function: ease-out;
 }
@@ -1958,8 +1947,6 @@
 
 /* Trim */
 .hvr-trim {
-  display: inline-block;
-  vertical-align: middle;
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
@@ -1968,7 +1955,7 @@
 .hvr-trim:before {
   content: '';
   position: absolute;
-  border: white solid 2px;
+  border: rgb(255, 36, 36) solid 1px;
   top: 4px;
   left: 4px;
   right: 4px;

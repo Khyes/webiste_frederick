@@ -653,6 +653,65 @@ main {
     font-weight: 200;
 }
 
+/* CONTACT ELEMENTS */
+
+.contact-cards{
+    width: 530px;
+    margin: 5rem auto;
+    
+}
+
+.contact-top {
+    background-color: rgb(34, 34, 34);
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+
+.phone {
+    padding: 2rem;
+    text-align: center;
+}
+
+.phone i, .email i {
+    background-color: var(--main-red-color);
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 100%;
+    color: rgb(34, 34, 34);
+    margin-bottom: 1.5rem;
+}
+
+h5.contact {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: rgba(255, 255, 255, 0.719);
+    margin-bottom: 1rem;
+}
+
+p.contact {
+    font-size: 0.8rem;
+    margin: 0;
+}
+
+.contact-bottom {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    
+
+}
+
+.email {
+    background-color: rgb(34, 34, 34);
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+
+
 /* BIO ELEMENTS */
 
 .bio-text {
@@ -1232,6 +1291,62 @@ strong {
         flex-direction: column;
         align-items: center;
     }
+
+    .contact-cards{
+        width: 300px;
+        margin: 5rem auto;
+        
+    }
+    
+    .contact-top {
+        background-color: rgb(34, 34, 34);
+        color: white;
+        display: flex;
+        justify-content: center;
+    }
+    
+    .phone {
+        padding: 2rem;
+        text-align: center;
+    }
+    
+    .phone i, .email i {
+        background-color: var(--main-red-color);
+        font-size: 2rem;
+        padding: 1rem;
+        border-radius: 100%;
+        color: rgb(34, 34, 34);
+        margin-bottom: 1.5rem;
+    }
+    
+    h5.contact {
+        font-size: 1.5rem;
+        font-weight: 800;
+        color: rgba(255, 255, 255, 0.719);
+        margin-bottom: 1rem;
+    }
+    
+    p.contact {
+        font-size: 0.8rem;
+        margin: 0;
+    }
+    
+    .contact-bottom {
+        display: flex;
+        flex-direction: column;
+        margin-top: 2rem;
+        
+    
+    }
+    
+    .email {
+        background-color: rgb(34, 34, 34);
+        color: white;
+        padding: 2rem;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    
 }
 
 @media (max-width: 414.98px) {
