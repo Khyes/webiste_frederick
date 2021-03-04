@@ -1158,7 +1158,7 @@ strong {
 }
 
 
-@media (max-width: 768.98px) {
+@media (max-width: 769.98px) {
     
     .main-title {
         padding-top: 0px;
@@ -1208,6 +1208,20 @@ strong {
     }
 
 
+}
+
+@media (max-width: 768.98px) {
+
+    .section {
+        margin-left: -20rem;
+    }
+}
+
+@media (max-width: 736.98px) {
+
+    .section {
+        margin-left: -10rem;
+    }
 }
 
 
