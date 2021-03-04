@@ -472,16 +472,23 @@ main {
 
 .card-base {
     width: 900px;
-    overflow-y: scroll;
+    height: 1150px;
     margin-right: auto;
     margin-left: auto;
 }
 
 .dakini-cards {
-    display: inline-flex;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    grid-auto-rows: repeat(3, 1fr);
+    row-gap: 50px;
     margin-top: 50px;
     margin-bottom: 10px;
-    overflow-y: scroll;
+}
+
+.card-last {
+    grid-column: 2;
 }
 
 .dakini-cards .card {
@@ -498,6 +505,19 @@ main {
     color: rgb(177, 177, 177);
     font-weight: 200;
     font-size: 14px;
+}
+
+#img-jean {
+    position:relative;
+    width:450px;
+    bottom: 120px;
+    right: 80px;
+}
+
+#img-marso {
+    position:relative;
+    width: 250px;
+    bottom: 30px;
 }
 
 #img-anthony {
