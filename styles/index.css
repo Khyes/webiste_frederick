@@ -139,8 +139,17 @@ strong::-moz-selection {
 }
 
 .fix-index {
-    height: 35vh;
+    height: 50vh;
 }
+
+.main-index {
+    height: 100%;
+}
+
+.management-main {
+    height: 100vh;
+}
+
 
 .all {
     overflow: hidden;
@@ -1197,6 +1206,15 @@ strong {
         margin-left: 0px;
     }
 
+    .fix-index {
+        height: 30vh;
+    }
+
+    .fix-management {
+        height: 35vh;
+    }
+
+
 }
 
 
@@ -1248,6 +1266,14 @@ strong {
     }
     .album-container .management-title h1 {
         font-size: 2rem;
+    }
+
+    .fix-index {
+        height: 25vh;
+    }
+
+    .fix-management {
+        height: 45vh;
     }
 
 
@@ -1333,6 +1359,14 @@ strong {
         }
         .album-container .management-title h1 {
             font-size: 1.5rem;
+        }
+
+        .fix-index {
+            height: 15vh;
+        }
+
+        .fix-management {
+            height: 70vh;
         }
 
 }
